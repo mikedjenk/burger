@@ -1,5 +1,5 @@
 USE burgers_db
-INSERT INTO burgers (burger_name, devoured)
-VALUES ("Jersey Burger", false),
-        ("Bacon Cheeseburger", false),
-        ("Fajita Burger", false)
+INSERT INTO burgers (burger_name)
+VALUES ("Jersey Burger"),
+        ("Bacon Cheeseburger"),
+        ("Fajita Burger")
