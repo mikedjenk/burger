@@ -1,9 +1,6 @@
 $(function() {
     $(".devour").on("click", function(event) {
       var id = $(this).data("id");
-  
-    
-  
       // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",

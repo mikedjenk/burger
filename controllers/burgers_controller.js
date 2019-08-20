@@ -29,9 +29,8 @@ router.get("/", function(req, res) {
   
     console.log("condition", condition);
   
-    burger.updateOne({
-      devoured: req.body.devoured
-    }, condition, function(result) {
+    burger.updateOne(
+     condition, function(result) {
       if (result.changedRows == 0) {
         return res.status(404).end();
       } else {
