@@ -19,7 +19,7 @@ $(function() {
   
       var newBurger = {
         burger_name: $("#ca").val().trim(),
-        // devoured: $("[name=devoured]:checked").val().trim()
+        // devoured: $("[name=devoured]:false").val().trim();
       };
 
       console.log(newBurger)
