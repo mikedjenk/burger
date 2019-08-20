@@ -17,4 +17,7 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+  #eaten{
+    float: right;
+  }
   
